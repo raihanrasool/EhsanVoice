@@ -9,3 +9,8 @@ And just to compliment, it does provide the feature of text to speech as well, a
 https://sites.google.com/view/ehsanvoice/home?authuser=0
 ## Find it on Google Play
 https://play.google.com/store/apps/details?id=com.rasool.ehsanvoice
+
+## Feel free to contribute
+
+# Contact
+Rasool dot Raihan AT Gmail.com
