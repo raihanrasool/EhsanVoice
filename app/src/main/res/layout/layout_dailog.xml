@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/titleOfSentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+    <EditText
+        android:id="@+id/Sentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleOfSentence"
+        android:hint="Enter Sentences Here "
+        />
+
+    <Button
+        android:id="@+id/addsentences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/AddnewSentences"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/Sentences"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/colorWhite"
+        />
+
+</RelativeLayout>

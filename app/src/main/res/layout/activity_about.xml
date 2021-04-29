@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_color"
+        android:paddingLeft="@dimen/padding_medium"
+        android:paddingRight="@dimen/padding_medium"
+        android:paddingBottom="@dimen/padding_medium"
+        android:paddingTop="@dimen/padding_xlong">
+        <androidx.cardview.widget.CardView
+            android:layout_margin="@dimen/padding_short"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/changePasswordLL"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/changePasswordText"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="@dimen/padding_long"-->
+                    <!--android:layout_marginBottom="@dimen/padding_long"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:padding="@dimen/padding_long"-->
+                    <!--android:text="@string/about_us"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:textAlignment="center"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:textSize="@dimen/loginheading"-->
+                    <!--/>-->
+
+                <TextView
+                    android:id="@+id/descriptionaboutus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/about_us_decription"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="@dimen/moderate"
+                    />
+
+                <TextView
+                    android:id="@+id/developer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="12dp"
+                    android:text="@string/AboutT"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="@dimen/moderate"
+                    />
+                <TextView
+                    android:id="@+id/version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Version: 1.0"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="@dimen/moderate"
+                    />
+
+                <TextView
+                    android:id="@+id/Contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/padding_long"
+                    android:layout_weight="1"
+                    android:text="@string/emailText"
+                    android:textAlignment="center"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="@dimen/moderate"
+
+                    />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

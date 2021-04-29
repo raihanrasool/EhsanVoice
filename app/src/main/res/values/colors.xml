@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#291D53</color>-->
+    <color name="colorPrimary">#6DA9E2</color>
+    <!--<color name="colorPrimaryDark">#1E153E</color>-->
+    <color name="colorPrimaryDark">#005EAB</color>
+    <!--<color name="colorAccent">#32B193</color>-->
+    <color name="colorAccent">#6DA9E2</color>
+    <color name="colorWhite">#ffff</color>
+
+    <color name="background">#e5e9ec</color>
+    <color name="colorbutton">#6DA9E2</color>
+    <color name="colorPressed">#D50000</color>
+    <color name="tab_strip">#FFFFFF</color>
+    <color name="colorblack">#141414</color>
+    <color name="colorborder">#48D3EE</color>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="270dp">
+
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/TextsizeofApp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="?android:attr/dividerHorizontal"
+        android:text="Sample Text Size 16 (Default)"
+        android:gravity="center"
+        android:layout_below="@+id/textTitle"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="16sp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/size1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Sample Text Size 18"
+        android:gravity="center"
+        android:layout_below="@+id/size"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:background="?android:attr/dividerHorizontal"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/size2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Sample Text Size  20"
+        android:gravity="center"
+        android:layout_below="@+id/size1"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:background="?android:attr/dividerHorizontal"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/size4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Sample Text Size  22"
+        android:gravity="center"
+        android:layout_below="@+id/size2"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="22sp"
+        android:layout_margin="8dp"
+        android:background="?android:attr/dividerHorizontal"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/size3"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:text="Sample Text Size  24"
+        android:gravity="center"
+        android:layout_below="@+id/size4"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        android:background="?android:attr/dividerHorizontal"
+        android:layout_marginTop="5dp" />
+
+
+
+
+
+
+
+    <!--<SeekBar-->
+        <!--android:id="@+id/seekBar1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_below="@+id/textView"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="20dp" />-->
+
+</RelativeLayout>

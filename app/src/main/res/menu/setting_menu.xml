@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add"
+        android:icon="@drawable/ic_add"
+        android:title="@string/AddCategory"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <!--<item android:id="@+id/Help"-->
+        <!--android:title="@string/SettingMenu"-->
+        <!--&gt;-->
+    <!--</item>-->
+
+    <item android:id="@+id/dictionary"
+        android:title="@string/Dictionary">
+    </item>
+
+    <item android:id="@+id/help"
+        android:title="@string/help">
+    </item>
+
+    <item android:id="@+id/About"
+        android:title="@string/About">
+    </item>
+
+
+    <item android:id="@+id/textsize"
+        android:title="@string/TextSize"
+        >
+    </item>
+
+
+
+
+</menu>

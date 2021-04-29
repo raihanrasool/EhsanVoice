@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">EhsanVoice</string>
+    <string name="SettingMenu">Settings</string>
+    <string name="AddCategory">Add</string>
+    <string name="Categories">Home</string>
+    <string name="UpdateSentences">Update</string>
+    <string name="AddnewSentences">Add</string>
+    <string name="About">About</string>
+    <string name="Dictionary">Manage Sentences</string>
+    <string name="help">Help</string>
+    <string name="helptext">This app aims to help people with speech difficulties.
+        It lets you record commonly used phrases in human voice to be played on demand.
+        Any number of messages can be recorded with helpful tips typed in any language.
+        The messages can be grouped into categories for easy access.
+        New categories can be added and all existing ones are configurable.
+        It provides the feature of text to speech as well, and automatically saves the newly typed sentences into its dictionary in order to provide helpful suggestions when typing similar text, the next time</string>
+    <string name="TextSize">Text Size</string>
+    <string name="enterTextHint">Enter Text</string>
+    <string name="enterNameHint">Enter Name Here </string>
+    <string name="enterUpdateHint">Name Of Category</string>
+    <string name="AddNewcategory">Add</string>
+    <string name="Updatecategory">Update</string>
+    <string name="AddNewMessage">Save</string>
+    <string name="UpdateNewMessage">Update</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_decription"> EhsanVoice</string>
+    <string name="record">Press and Hold to Record</string>
+    <string name="recordPreivew">Preview Recording</string>
+    <string name="editMessage">Edit</string>
+    <string name="changeCategory">Change Category</string>
+    <string name="change">Change</string>
+    <string name="deleteMessage">Delete</string>
+    <string name="speak">Speak</string>
+    <string name="Clear">Clear</string>
+    <string name="oder">Order</string>
+    <string name="TextsizeofApp">Select Text Size</string>
+    <string name="CurrentCategory">Current Category</string>
+    <string name="NewCategory">New Category</string>
+    <string name="spinner">Select Category</string>
+    <string name="AboutT"> Rasool Consulting Pty. Ltd.</string>
+    <string name="onlineguide">Online guide: https://sites.google.com/view/ehsanvoice</string>
+    <string name="feeback">Bugs, feedback or comments: <u>rasool.raihan@gmail.com</u></string>
+    <string name="link">Link to recordings: /storage/emulated/0/EhsanVoice/audio_xyz.mp3 (Please don not delete these Files) </string>
+    <string name="recording">Recording.....</string>
+    <string name="showdailog">No recording found</string>
+    <string name="emailText">Contact: <u>rasool.raihan@gmail.com</u></string>
+    <string name="option">Options</string>
+    <string name="addnewsentenc">Add New Sentences</string>
+    <string name="sentencedictionary">Sentences Dictionary</string>
+    <string name="updatemessage">Update Message</string>
+    <string name="updatesentences">Update Sentences</string>
+    <string name="about">About</string>
+    <string name="newcategory">Add New Category</string>
+    <string name="newmessage">Add New Message</string>
+    <string name="updatecategory">Update Category</string>
+
+
+    <string-array name="SuggestionSentences">
+        <item>No thank you</item>
+        <item> Thanks</item>
+        <item>I have a dry mouth</item>
+        <item>I am not Comfortable</item>
+        <item>I want to go to bed</item>
+        <item>I want to sit up more</item>
+        <item>I want to lie back more</item>
+        <item>Can you open the window please?</item>
+        <item>Can you close the window please?</item>
+        <item>Can you wipe My mouth please?</item>
+        <item>I am too hot</item>
+        <item>I am too cold</item>
+        <item>I need the toilet</item>
+        <item>Yes</item>
+        <item>Yes please</item>
+        <item>I love You</item>
+        <item>I need Novel</item>
+    </string-array>
+
+
+    <integer-array name="random_imgs">
+        <item>@drawable/drinks</item>
+        <item>@drawable/shoping</item>
+        <item>@drawable/persons</item>
+        <item>@drawable/food</item>
+    </integer-array>
+
+
+</resources>
